@@ -1,0 +1,46 @@
+.outer-projects {
+    margin: 158px 0px;
+}
+.projectSelector {
+    margin: 20px 0px;
+}
+
+.selectTxt {
+    font-size: 32pt;
+    margin-right: 20px;
+    z-index: 2;
+    color: black;
+    padding: 34px 40px;
+    width: fit-content;
+    border-radius: 80px;
+    color: white;
+    background-color: #000912;
+    border: 1px solid #F6F0EC;
+}
+.selectTxt:hover {
+    color: #000912;
+    background-color: #F6F0EC;
+    border: 1px solid #F6F0EC;
+    transition-duration: 0.5s;
+}
+.SwipSection {
+    overflow-x: scroll;
+}
+.PrjectBox {
+    margin: 40px 0px;
+    display: flex;
+}
+.img-project {
+    width: 700px;
+    height: 500px;
+    border-radius: 40px;
+    margin-right: 40px;
+}
+.linkContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.moreLink {
+    margin: 20px;
+}

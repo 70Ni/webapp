@@ -1,0 +1,28 @@
+.outer-achiev {
+  margin: 50px 0px;
+}
+.ValueContainer {
+  display: flex;
+  margin: 40px 0px;
+  justify-content: space-between;
+}
+.Values {
+  margin-right: 40px;
+}
+
+.EmpzTxt {
+  color: #ffc95f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.num {
+  color: #fff;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

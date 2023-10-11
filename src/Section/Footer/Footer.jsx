@@ -1,0 +1,50 @@
+import React from "react";
+import "../Footer/footer.css";
+import arrow from "../../Images/Svg/Arrow.svg";
+function Footer() {
+  return (
+    <div className="outer-footer">
+      <div className="footerContent">
+        <div className="footerHeader">
+          Let's work <br />
+          together
+        </div>
+        <div className="footercontent">
+          <div className="logo">
+            <div className="Header">Cstudio</div>
+            {/* <img    src="" alt="logo" className='csLogo' /> */}
+            <div className="mission">
+              empower businesses and organizations to thrive in the
+              ever-evolving digital landscape
+            </div>
+          </div>
+          <div className="socilalinks">
+            <div className="subtxt">Follow</div>
+            <div className="footerLinktxt subtxt">
+              Behance
+              <img src={arrow} alt="" className="arrw" />
+            </div>
+            <div className="footerLinktxt subtxt">
+              Behance
+              <img src={arrow} alt="" className="arrw" />
+            </div>
+            <div className="footerLinktxt subtxt">
+              Behance
+              <img src={arrow} alt="" className="arrw" />
+            </div>
+          </div>
+        </div>
+        <div className="footeredge">
+          <div className="footeredgetxt">© Cstudio 2023</div>
+          <div className="footeredgelinks">
+            <div className="footlinks">About Us</div>
+            <div className="footlinks">About Us</div>
+            <div className="footlinks">About Us</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Footer;
