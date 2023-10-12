@@ -9,6 +9,7 @@ import Projects from './Section/Projects/Projects';
 import Clients from './Section/Clients/Clients';
 import Feedback from './Section/Feedback/Feedback';
 import Footer from './Section/Footer/Footer';
+import Capabilities from './Section/Capabilities/Capabilities';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Achieve />
       <Case />
       <Projects />
+      <Capabilities />
       <Clients />
       <Feedback />
       <Footer />
