@@ -1,8 +1,10 @@
 import React from "react";
 import { Button } from "rsuite";
 import image from "../../Images/Img/Image.png";
-
+import 'rsuite/dist/rsuite.min.css';
+import '../../custom-theme.less';
 import "../Capabilities/Capability.css";
+
 function Capabilities() {
   return (
     <div className="capabilites-outer">
@@ -36,13 +38,8 @@ function Capabilities() {
             nly five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </div>
-        </div>
-        <div className="categBox">
-          <div className="Header dark-txt">UI/UX</div>
-          <div className="para dark-txt">
-            nly five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-            <Button className= "Catebutton">UI/UX</Button>
+           <div className="buttoncontainte">
+            <Button appearance="" active className="Catebutton">UI/UX</Button>
           </div>
         </div>
         <div className="categBox">
@@ -50,6 +47,19 @@ function Capabilities() {
           <div className="para dark-txt">
             nly five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
+          </div>
+          <div className="buttoncontainte">
+            <Button appearance="" active className="Catebutton">UI/UX</Button>
+          </div>
+        </div>
+        <div className="categBox">
+          <div className="Header dark-txt">UI/UX</div>
+          <div className="para dark-txt">
+            nly five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </div>
+          <div className="buttoncontainte">
+            <Button className="Catebutton">UI/UX</Button>
           </div>
         </div>
       </div>

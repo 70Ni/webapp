@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <Navigation />
       <div className='MainSec'>
-      <IntoSec />
-      <Brief />
-      <Achieve />
-      <Case />
-      <Projects />
-      <Capabilities />
-      <Clients />
-      <Feedback />
-      <Footer />
+      {/* <IntoSec /> */}
+        {/* <Brief /> */}
+         {/* <Achieve /> */}
+        {/* <Case /> */}
+        {/* <Projects /> */}
+        <Capabilities />
+        {/*<Clients />
+        <Feedback />
+        <Footer /> */}
       </div>
     </div>
   );

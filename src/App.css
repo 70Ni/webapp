@@ -14,3 +14,13 @@
 body {
   background-color: #000912;
 }
+@media only screen and (max-width: 1025px) {
+  .MainSec {
+    margin: 0px 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .MainSec {
+    margin: 0px 20px;
+  }
+}

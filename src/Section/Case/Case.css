@@ -51,11 +51,59 @@
   height: 40px;
 }
 .storyBxcontent {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "storyheader ParaGrid ParaGrid"
+    "storyheader ParaGrid ParaGrid"
+    "Quotes ParaGrid ParaGrid";
+}
+
+@media only screen and (max-width: 1132px) {
+
+  .storyBxcontent {
     display: grid;
     gap: 10px;
     grid-template-areas:
-      "storyheader ParaGrid ParaGrid"
-      "storyheader ParaGrid ParaGrid"
-      "Quotes ParaGrid ParaGrid"
-      
+      "storyheader storyheader storyheader"
+      "ParaGrid ParaGrid ParaGrid"
+      "Quotes Quotes Quotes";
   }
+}
+@media only screen and (max-width: 880px) {
+  .case-outer-flex {
+    flex-wrap: wrap;
+  }
+  .OurStoryBox {
+    margin-top: 14px;
+  }
+  .caseLeft {
+    width: 100%;
+    padding-right: none;
+  }
+  .aboutUs {
+    width: 100%;
+  }
+  .case-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .case-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .storyBxcontent {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "storyheader storyheader storyheader"
+      "ParaGrid ParaGrid ParaGrid"
+      "Quotes Quotes Quotes";
+  }
+}
