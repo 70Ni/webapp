@@ -1,0 +1,50 @@
+.capbilitieswrapper {
+    display: flex;
+}
+.captag {
+    padding: 18px 52px;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 4px;
+    background-color: #FFC49D;
+    color: #000912;
+    font-weight: 500;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 20px;
+}
+.captagCollection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.capLeft {
+    position: relative;
+}
+.captagBox {
+    padding: 38px;
+    background-color: #F6F0EC;
+    border-radius: 40px;
+    margin: 0px 14px;
+}
+.capimgtxt {
+    position: absolute;
+    top:20%;
+    left:20%;
+    rotate: -90deg;
+}
+.capbox {
+    height: 100%;
+    object-fit: cover;
+}
+.categBox {
+    padding: 80px 32px;
+    background-color: #F6F0EC;
+    border-radius: 40px;
+    margin-top: 14px;
+    margin-right: 14px;
+}
+.categorywrapr {
+    display: flex;
+}
+.Catebutton {
+    padding: ;
+}
