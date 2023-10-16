@@ -1,17 +1,25 @@
 .processwrapper {
-    max-width: 1000px;
+    max-width: 1200px;
+    margin: 0px auto;
 }
 .procSection {
     display: flex;
-    margin: 20px 0px;
-    align-items: flex-start;
+    margin: 80px 0px;
+    align-items: center;
     justify-content: space-between;
 }
+.proceshedrImg {
+    height: 280px;
+    border-radius: var(--Border-radius-none);
+    width:100%;
+    object-fit: cover;
+    margin: 40px 0px; 
+}
 .proctext:nth-child(even) {
-    margin-left: 20px;
+    margin-left: 120px;
 }
 .proctext:nth-child(odd){
-    margin-right: 20px;
+    margin-right: 80px;
 }
 .processImage {
     height: 300px;

@@ -1,43 +1,51 @@
 import React from "react";
 import { Button } from "rsuite";
-import '../Casestudy/Casestudy.css'
-import image from '../../Images/Img/Image.png'
+import "../Casestudy/Casestudy.css";
+import image from "../../Images/Img/Image.png";
+import arrow from "../../Images/Svg/Arrowdark.svg";
+import { useEffect } from "react";
+import CaseBanner from "../../Section/CaseStudy/CaseBanner";
+import Processbanner from "../../Section/ProcessBanner/Processbanner";
+import FloatProjects from "../../Section/FloatProjects/FloatProjects";
+import CaseCard from "./CaseCard";
+
 
 function Casestudy() {
+  useEffect(() => {
+    function setTheme(themeName) {
+      document.documentElement.className = themeName;
+    }
+    setTheme("theme-light");
+  }, []);
+  // function setTheme(themeName) {
+  //   localStorage.setItem("theme", "theme-dark");
+  //   document.documentElement.className = "theme-dark";
+  // }
   return (
     <div className="casecover">
-      <div className="IntroTXT">We Design things that make things work</div>
-      <div className="Header">
-      Recent Case studies
+      <div className="caseintrowrapper">
+        <div className="IntroTXT">We Design things that make things work</div>
+        <div className="caseint-right">
+          <img src={image} alt="" className="caseImg" />
+          <div className="subtxt">
+            We Design things that make things workWe Design things that make
+            things workWe Design things that make things{" "}
+          </div>
+        </div>
+      </div>
+      <div className="casestHeder">
+        <div className="Header">Case Studies</div>
+        <img src={arrow} alt="" className="arrcasest" />
       </div>
       <div className="casesWrapper">
-        <div className="casewrapper">
-            <div className="img">
-              <img src={image} className="caseimage" alt="case-image" />
-            </div>
-            <div className="Header">Web page</div>
-            <div className="para">evenly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-            <Button>Hlel</Button>
-        </div>
-        <div className="casewrapper">
-            <div className="img">
-              <img src={image} className="caseimage" alt="case-image" />
-            </div>
-            <div className="Header">Web page</div>
-            <div className="para">evenly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-            <Button>Hlel</Button>
-        </div>
+        <CaseCard />
+        <CaseCard />
       </div>
       <div className="casesWrapperbelow">
-        <div className="casewrapper">
-            <div className="img">
-              <img src={image} className="caseimage" alt="case-image" />
-            </div>
-            <div className="Header">Web page</div>
-            <div className="para">evenly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-            <Button>Hlel</Button>
-        </div>
+        <CaseCard />
       </div>
+      <Processbanner />
+      <FloatProjects />
     </div>
   );
 }

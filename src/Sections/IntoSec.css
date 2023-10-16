@@ -12,6 +12,7 @@
   font-family: "Inter", Courier, monospace;
   font-size: 120px;
   line-height: 145px;
+  color: var(--color-text);
 }
 .IntrigtTop {
   font-size: 24px;

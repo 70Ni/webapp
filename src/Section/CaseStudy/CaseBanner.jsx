@@ -1,5 +1,5 @@
 import React from "react";
-import "../CaseStudy/caseStudy.css";
+import "../CaseStudy/caseBanner.css";
 import image from "../../Images/Img/Image.png";
 import { Button } from "rsuite";
 function CaseBanner() {
@@ -14,7 +14,7 @@ function CaseBanner() {
             Get into some 
             Case studies
           </div>
-          <Button className="casebanlink Catebutton Header dark-txt">Check workflows</Button>
+          <Button className="casebanlink Catebutton Header   dark-txt">Check workflows</Button>
         </div>
       </div>
     </div>

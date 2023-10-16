@@ -13,7 +13,7 @@
   font-size: 58px;
   font-weight: 600;
   font-family: "Inter", Courier, monospace;
-  color: white;
+  color: var(--color-text);
 }
 .subtxt {
   font-size: 32px;

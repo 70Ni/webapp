@@ -1,15 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* constants */
+
+:root {
+  --primary-color:#862DF4;
+  --Box-color:#F6F0EC;
+  --hilight-color:#FFC95F;
+
+  --font-Introtxt: 7.5rem;
+  --font-Header: 5rem;  
+  --font-Subtxt: 2rem;
+  --font-Introtxt: 7.5rem;
+  --font-Para: 1.25rem;
+  --font-Footer: 0.875rem;
+
+  --Border-radius: 2.5rem; 
+  --Border-radius-none: 0rem; 
+}
+
+.theme-light {
+  --color-Background: #FFFFFF;
+  --color-text: #0E100F;
+}
+.theme-dark {
+  --color-Background: #0E100F;
+  --color-text: #FFFFFF;
+}
+.font-typs {
+  --font-Introtxt: 7.5rem;
+  --font-Header: 5rem;  
+  --font-Subtxt: 2rem;
+  --font-Introtxt: 7.5rem;
+  --font-Para: 1.25rem;
+  --font-Footer: 0.875rem;
+}
+
+
 .App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background-color: #000912;
+  width:100%;
+  background-color: var(--color-Background);
 }
 .MainSec {
   max-width: 1400px;
-  background-color: #000912;
-  margin: 0px 140px;
+  /* background-color: #000912; */
+  margin: 0px 40px;
+  width:100%;
+
 }
 body {
   background-color: #000912;

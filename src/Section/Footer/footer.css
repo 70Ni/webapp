@@ -1,5 +1,5 @@
 .footerHeader {
-  color: #fff;
+  color: var(--color-text);
   font-family: "Inter", Courier, monospace;
   font-size: 120px;
   font-style: normal;
@@ -99,5 +99,18 @@
   .footeredgelinks {
     padding: 12px 0px;
   }
+  .mission {
+    width: auto;
+  }
 
+
+
+}
+@media only screen and (max-width: 320px) {
+  .footerHeader {
+    font-size: 42px;
+  }
+  .footerHeader {
+    padding: 40px 0px;
+  }
 }
