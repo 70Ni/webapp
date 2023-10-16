@@ -93,9 +93,10 @@
     .captag {
         width:100%;
         text-align: center;
+        margin: 4px 0px;
     }
     .captagBox {
-        padding: 32px 14px;
+        padding: 32px 24px;
     }
   }
   

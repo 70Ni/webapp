@@ -1,30 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
-import IntoSec from './Sections/IntoSec';
-import Navigation from './Section/Navigation/Navigation';
-import Brief from './Section/Brief/Brief';
-import Achieve from './Section/Achievements/Achieve';
-import Case from './Section/Case/Case';
-import Projects from './Section/Projects/Projects';
-import Clients from './Section/Clients/Clients';
-import Feedback from './Section/Feedback/Feedback';
-import Footer from './Section/Footer/Footer';
-import Capabilities from './Section/Capabilities/Capabilities';
+import logo from "./logo.svg";
+import "./App.css";
+import IntoSec from "./Sections/IntoSec";
+import Navigation from "./Section/Navigation/Navigation";
+import Brief from "./Section/Brief/Brief";
+import Achieve from "./Section/Achievements/Achieve";
+import Case from "./Section/Case/Case";
+import Projects from "./Section/Projects/Projects";
+import Clients from "./Section/Clients/Clients";
+import Feedback from "./Section/Feedback/Feedback";
+import Footer from "./Section/Footer/Footer";
+import Capabilities from "./Section/Capabilities/Capabilities";
+import Casestudy from "./Pages/Casestudy/Casestudy";
+import Process from "./Pages/Process/Process";
+import CaseBanner from "./Section/CaseStudy/CaseBanner";
+import { NavLink as Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route }
+    from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <div className='MainSec'>
-      {/* <IntoSec /> */}
-        {/* <Brief /> */}
-         {/* <Achieve /> */}
-        {/* <Case /> */}
-        {/* <Projects /> */}
+      <div className="MainSec">
+        <Router>
+          <Routes>
+            <Route exact path="/casestudy"  element={<Casestudy />} />
+            <Route exact path="/client"  element={<Clients />} />
+          </Routes>
+        </Router>
+        {/* <Navigation /> */}
+        {/* <IntoSec />
+        <Brief />
+        <Achieve />
+        <Case />
+        <Projects />
         <Capabilities />
-        {/*<Clients />
-        <Feedback />
+        <CaseBanner /> */}
+        {/* <Clients /> */}
+        {/* <Feedback />
         <Footer /> */}
+        {/* <Casestudy />
+        <Process /> */}
       </div>
     </div>
   );
