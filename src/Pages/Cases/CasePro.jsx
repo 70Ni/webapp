@@ -29,11 +29,11 @@ function CasePro() {
           </div>
         </div>
         <div>
-          {/* <div className="caseimgwrpr">
+          <div className="caseimgwrpr">
             <div className="caseintImg">
               <img src={image} alt="caseStudyImage" className="caseBannerimg" />
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="casedetails">
           <div className="casedatawrper">
