@@ -32,7 +32,7 @@ function Process() {
             <img src={image} alt="" className="processImage" />
           </div>
         </div>
-        <div className="procSection">
+        <div className="procSection procSectionEven">
           <div className="procImage">
             <img src={image} alt="" className="processImage" />
           </div>
@@ -57,7 +57,7 @@ function Process() {
           </div>
         </div>
       </div>
-      <CaseBannerL />
+      {/* <CaseBannerL /> */}
     </div>
   );
 }
