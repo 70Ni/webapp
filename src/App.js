@@ -14,7 +14,7 @@ import CasePro from "./Pages/Cases/CasePro";
 import Process from "./Pages/Process/Process";
 import CaseBanner from "./Section/CaseStudy/CaseBanner";
 import { NavLink as Link } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route }
+import { HashRouter}
     from 'react-router-dom';
 import Land from "./Pages/Landing page/Land";
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <div className="MainSec">
-        <Router>
+        {/* <Router>
           <Routes>
             <Route exact path="/"  element={<Land />} />
             <Route exact path="/casestudy"  element={<Casestudy />} />
@@ -31,7 +31,8 @@ function App() {
             <Route exact path="/client"  element={<Clients />} />
             <Route exact path="/process"  element={<Process />} />
           </Routes>
-        </Router>
+        </Router> */}
+        <Land />
         {/* <Navigation /> */}
         {/* <IntoSec />
         <Brief />*/}
