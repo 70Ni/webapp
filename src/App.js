@@ -14,10 +14,8 @@ import CasePro from "./Pages/Cases/CasePro";
 import Process from "./Pages/Process/Process";
 import CaseBanner from "./Section/CaseStudy/CaseBanner";
 import { NavLink as Link } from "react-router-dom";
-import { HashRouter}
-    from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
 import Land from "./Pages/Landing page/Land";
-
 
 function App() {
   return (
@@ -32,7 +30,10 @@ function App() {
             <Route exact path="/process"  element={<Process />} />
           </Routes>
         </Router> */}
-        <Land />
+        <HashRouter>
+          <Land />
+        </HashRouter>
+
         {/* <Navigation /> */}
         {/* <IntoSec />
         <Brief />*/}
@@ -43,7 +44,7 @@ function App() {
         <CaseBanner />  */}
         {/* <Clients /> */}
         {/* <Feedback />*/}
-        <Footer />  
+        <Footer />
 
         {/* <Casestudy />
         <Process /> */}
