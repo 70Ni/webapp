@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
 .IntroWrapper {
   display: flex;
   justify-content: space-between;
@@ -9,12 +10,13 @@
   min-width: 770px;
 }
 .IntroTXT {
-  font-family: "Inter", Courier, monospace;
-  font-size: 120px;
+  font-family: var(--typo-Satoshi-Bold), Courier, monospace;
+  font-size: var(--font-Introtxt);
   line-height: 145px;
   color: var(--color-text);
 }
 .IntrigtTop {
+  font-family: 'Inter', Courier, monospace;
   font-size: 24px;
   color: white;
   line-height: 34px;

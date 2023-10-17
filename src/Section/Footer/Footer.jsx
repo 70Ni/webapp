@@ -1,7 +1,16 @@
 import React from "react";
 import "../Footer/footer.css";
 import arrow from "../../Images/Svg/Arrow.svg";
+import { useEffect } from "react";
+
+
 function Footer() {
+  useEffect(() => {
+    function setTheme(themeName) {
+      document.documentElement.className = themeName;
+    }
+    setTheme("theme-light");
+  }, []);
   return (
     <div className="outer-footer">
       <div className="footerContent">

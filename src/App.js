@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import IntoSec from "./Sections/IntoSec";
 import Navigation from "./Section/Navigation/Navigation";
 import Brief from "./Section/Brief/Brief";
 import Achieve from "./Section/Achievements/Achieve";
@@ -17,6 +16,7 @@ import CaseBanner from "./Section/CaseStudy/CaseBanner";
 import { NavLink as Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
+import Land from "./Pages/Landing page/Land";
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
       <div className="MainSec">
         <Router>
           <Routes>
+            <Route exact path="/"  element={<Land />} />
             <Route exact path="/casestudy"  element={<Casestudy />} />
             <Route exact path="/casepro"  element={<CasePro />} />
             <Route exact path="/client"  element={<Clients />} />

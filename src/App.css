@@ -1,52 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 /* constants */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
 :root {
-  --primary-color:#862DF4;
-  --Box-color:#F6F0EC;
-  --hilight-color:#FFC95F;
+  --primary-color: #862df4;
+  --Box-color: #f6f0ec;
+  --hilight-color: #ffc95f;
 
-  --font-Introtxt: 7.5rem;
-  --font-Header: 5rem;  
-  --font-Subtxt: 2rem;
-  --font-Introtxt: 7.5rem;
-  --font-Para: 1.25rem;
-  --font-Footer: 0.875rem;
+  --font-Introtxt: 7.5rem; /* 120px */
+  --font-Header: 5rem; /* 80px */
+  --font-Subtxt: 2rem; /* 32px */
+  --font-Para: 1.25rem; /* 20px */
+  --font-Footer: 0.875rem; /* 14px */
 
-  --Border-radius: 2.5rem; 
-  --Border-radius-none: 0rem; 
+  --Border-radius: 2.5rem; /* 40px */
+  --Border-radius-none: 0rem;
+
+  --typo-Satoshi-Black: "Satoshi Black";
+  --typo-Satoshi-Bold: "Satoshi Bold";
+  --typo-Satoshi-Medium: "Satoshi Medium";
+  --typo-Satoshi-Regular: "Satoshi Regular";
+
+  --typo-Inter-Regular: "Inter Regular";
 }
 
 .theme-light {
-  --color-Background: #FFFFFF;
-  --color-text: #0E100F;
+  --color-Background: #ffffff;
+  --color-text: #0e100f;
 }
 .theme-dark {
-  --color-Background: #0E100F;
-  --color-text: #FFFFFF;
+  --color-Background: #0e100f;
+  --color-text: #ffffff;
 }
 .font-typs {
   --font-Introtxt: 7.5rem;
-  --font-Header: 5rem;  
+  --font-Header: 5rem;
   --font-Subtxt: 2rem;
   --font-Introtxt: 7.5rem;
   --font-Para: 1.25rem;
   --font-Footer: 0.875rem;
 }
 
+@font-face {
+  font-family: "Satoshi Black";
+  font-style: Black;
+  font-weight: Black;
+  src: local("Satoshi Black"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Black.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Bold";
+  font-style: Bold;
+  font-weight: Bold;
+  src: local("Satoshi Bold"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Bold.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Satoshi Medium";
+  font-style: Medium;
+  font-weight: Medium;
+  src: local("Satoshi Medium"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Medium.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Satoshi Regular";
+  font-style: Regular;
+  font-weight: Regular;
+  src: local("Satoshi Regular"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Regular.woff")
+      format("woff");
+}
 
 .App {
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   background-color: var(--color-Background);
 }
 .MainSec {
   max-width: 1400px;
   /* background-color: #000912; */
   margin: 0px 40px;
-  width:100%;
-
+  width: 100%;
 }
 body {
   background-color: #000912;

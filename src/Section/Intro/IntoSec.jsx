@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
-import "../Sections/IntoSec.css";
-import Arrow from "../Images/Svg/Arrow.svg";
+import "../../Section/Intro/IntoSec.css";
+import Arrow from "../../Images/Svg/Arrow.svg";
 
 function IntoSec() {
   return (

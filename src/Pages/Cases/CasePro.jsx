@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import Processbanner from "../../Section/ProcessBanner/Processbanner";
-import "../Cases/case.css";
+import "../Cases/casepro.css";
 import Logo from "../../Images/Img/Deolittle.png";
 import image from "../../Images/Img/Image.png";
 import CaseCard from "../Casestudy/CaseCard";
@@ -28,12 +28,12 @@ function CasePro() {
             typesetting, remaining essentially unchanged.
           </div>
         </div>
-        {/* <div>
-          <div className="caseimgwrpr">
+        <div>
+          {/* <div className="caseimgwrpr">
             <div className="caseintImg">
               <img src={image} alt="caseStudyImage" className="caseBannerimg" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="casedetails">
           <div className="casedatawrper">
@@ -67,9 +67,9 @@ function CasePro() {
                 <div className="caseSection">Service</div>
                 <div className="casepara">
                   evenly five centuries, but also the leap into electronic
-                  typesetting, remaininevenly five centuries, but also the leap into electronic
-                typesettingg essentialevenly five centuries, but also the leap into electronic
-                typesettingly unchanged.
+                  typesetting, remaininevenly five centuries, but also the leap
+                  into electronic typesettingg essentialevenly five centuries,
+                  but also the leap into electronic typesettingly unchanged.
                 </div>
               </div>
             </div>
@@ -108,28 +108,34 @@ function CasePro() {
             </div>
           </div>
         </div>
-
         <div className="Imagery">
           <div className="singlecolumn">
-            <img src={image} alt="" className="oneratio" />
+            <img src={image} alt="" className="tworatio" />
           </div>
           <div className="twocoloumlayout">
-            <img src={image} alt="" className="oneratio" />
-            <img src={image} alt="" className="oneratio" />
+          <div className="item">
+              <img src={image} alt="" className="oneratio" />
+            </div>  <div className="item">
+              <img src={image} alt="" className="oneratio" />
+            </div>
           </div>
           <div className="two1and2ratio">
-            <img src={image} alt="" className="tworatio" />
-            <img src={image} alt="" className="oneratio" />
+          <div className="item flexone">
+              <img src={image} alt="" className="tworatio" />
+            </div>  <div className="item flextwo">
+              <img src={image} alt="" className="tworatio" />
+            </div>
           </div>
         </div>
+     
         <div className="Header">Other Case Studies</div>
         <div className="processsecwrapper">
           <CaseCard />
           <CaseCard />
           <CaseCard />
-        </div> */}
+        </div> 
       </div>
-      {/* <Processbanner /> */}
+      <Processbanner />
     </div>
   );
 }
