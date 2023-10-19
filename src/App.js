@@ -20,11 +20,11 @@ function App() {
       <div className="MainSec">
         <Router>
           <Routes>
-            <Route exact path="/"  Component={<Land />} />
-            <Route  path="/casestudy"  Component={<Casestudy />} />
-            <Route  path="/casepro"  Component={<CasePro />} />
-            <Route  path="/client"  Component={<Clients />} />
-            <Route  path="/process"  Component={<Process />} />
+            <Route exact path="/"  element={<Land />} />
+            <Route  path="/casestudy"  element={<Casestudy />} />
+            <Route  path="/casepro"  element={<CasePro />} />
+            <Route  path="/client"  element={<Clients />} />
+            <Route  path="/process"  element={<Process />} />
           </Routes>
         </Router>
         {/* <Navigation /> */}
