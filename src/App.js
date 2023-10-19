@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import React from "react";
+import ReactDOM from "react-dom";
 import "./App.css";
 import Navigation from "./Section/Navigation/Navigation";
 import Brief from "./Section/Brief/Brief";
@@ -14,26 +16,22 @@ import CasePro from "./Pages/Cases/CasePro";
 import Process from "./Pages/Process/Process";
 import CaseBanner from "./Section/CaseStudy/CaseBanner";
 import { NavLink as Link } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Land from "./Pages/Landing page/Land";
 
 function App() {
   return (
     <div className="App">
       <div className="MainSec">
-        {/* <Router>
+        <Router>
           <Routes>
-            <Route exact path="/"  element={<Land />} />
-            <Route exact path="/casestudy"  element={<Casestudy />} />
-            <Route exact path="/casepro"  element={<CasePro />} />
-            <Route exact path="/client"  element={<Clients />} />
-            <Route exact path="/process"  element={<Process />} />
+            <Route exact path="/"  Component={<Land />} />
+            <Route  path="/casestudy"  Component={<Casestudy />} />
+            <Route  path="/casepro"  Component={<CasePro />} />
+            <Route  path="/client"  Component={<Clients />} />
+            <Route  path="/process"  Component={<Process />} />
           </Routes>
-        </Router> */}
-        <HashRouter>
-          <Land />
-        </HashRouter>
-
+        </Router>
         {/* <Navigation /> */}
         {/* <IntoSec />
         <Brief />*/}
@@ -44,7 +42,7 @@ function App() {
         <CaseBanner />  */}
         {/* <Clients /> */}
         {/* <Feedback />*/}
-        <Footer />
+        <Footer />  
 
         {/* <Casestudy />
         <Process /> */}

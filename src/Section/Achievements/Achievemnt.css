@@ -19,7 +19,7 @@
   line-height: normal;
 }
 .num {
-  color: #fff;
+  color: var(--color-text);
   font-family: Inter;
   font-size: 100px;
   font-style: normal;

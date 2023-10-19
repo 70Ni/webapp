@@ -3,8 +3,10 @@ import { Button } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 import "../../Section/Intro/IntoSec.css";
 import Arrow from "../../Images/Svg/Arrow.svg";
+import { useEffect } from "react";
 
 function IntoSec() {
+
   return (
     <div>
       <div className="IntroWrapper">
