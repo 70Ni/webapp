@@ -1,5 +1,5 @@
 import React from "react";
-import { useState,useEffect } from "react";
+import { useState,useEffect,useRef } from "react";
 import Achieve from "../../Section/Achievements/Achieve";
 import Brief from "../../Section/Brief/Brief";
 import Capabilities from "../../Section/Capabilities/Capabilities";
@@ -14,6 +14,8 @@ import Casestudy from "../Casestudy/Casestudy";
 function Land() {
   const [theme, settheme] = useState();
   const [loading, setLoading] = useState(true);
+
+
   useEffect(() => {
     function setTheme(themeName) {
       settheme((document.documentElement.className = themeName));
@@ -31,7 +33,7 @@ function Land() {
         <IntoSec />
         <Brief />
         <Achieve />
-        {/* <Projects /> */}
+        <Projects />
         {/* <CaseBanner /> */}
         <Capabilities />
         {/* <Clients /> */}
