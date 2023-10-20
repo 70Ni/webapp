@@ -43,17 +43,17 @@ function Capabilities() {
           </div>
         </div>
         <div className="categBox">
-          <div className="Header dark-txt">UI/UX</div>
+          <div className="Header dark-txt">Pitch Deck</div>
           <div className="para dark-txt">
             nly five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </div>
           <div className="buttoncontainte">
-            <Button appearance="" active className="Catebutton">UI/UX</Button>
+            <Button appearance="" active className="Catebutton"></Button>
           </div>
         </div>
         <div className="categBox">
-          <div className="Header dark-txt">UI/UX</div>
+          <div className="Header dark-txt">Web Development</div>
           <div className="para dark-txt">
             nly five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.

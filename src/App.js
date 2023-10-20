@@ -17,6 +17,7 @@ import { NavLink as Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 import Land from "./Pages/Landing page/Land";
+import Mission from "./Section/Mission/Mission";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route exact path="/casepro"  element={<CasePro />} />
             <Route exact path="/client"  element={<Clients />} />
             <Route exact path="/process"  element={<Process />} />
+            <Route exact path="/connect"  element={<Mission />} />
           </Routes>
         </Router>
         {/* <Navigation /> */}

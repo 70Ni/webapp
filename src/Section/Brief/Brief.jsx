@@ -6,9 +6,9 @@ function Brief() {
   return (
     <div className='outerwrapper'>
         <div className="left">
-            <div className="Header">nly five centuries, but also the leap into </div>
-            <div className="subtxt">nly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-            <div className="para">nly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+            <div className="Header">We craft personalized solutions</div>
+            <div className="subtxt">We believe in the power of customization. Your business is unique, and your needs too.</div>
+            <div className="para">Your success is our success. We measure our achievements by the results we deliver. We're not satisfied until you see tangible improvements in your digital performance.</div>
         </div>
         <div className="right">
             <img src= {Img} alt="img" className='Imag-Brief' />   

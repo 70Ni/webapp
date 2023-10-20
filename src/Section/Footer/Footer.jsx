@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <div className="footercontent">
           <div className="logo">
-            <div className="Header">Cstudio</div>
+            <div className="Header">Orioncruz</div>
             {/* <img    src="" alt="logo" className='csLogo' /> */}
             <div className="mission">
               empower businesses and organizations to thrive in the
