@@ -46,9 +46,7 @@
     object-fit: cover;
     border-radius: 40px;
 }
-.casecover {
-    min-width: 1400px;
-}
+
 .testSqure {
     background-color: var(--color-Background);
     font-size: var(--font-Subtxt);
@@ -56,3 +54,13 @@
 .txtfortest {
     color: var(--color-txt);
 }
+
+@media only screen and (max-width: 1200px) {
+    .caseintrowrapper {
+      flex-wrap: wrap;
+    }
+    .caseImg {
+        width: 100%;
+    }
+  }
+  

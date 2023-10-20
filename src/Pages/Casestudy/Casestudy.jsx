@@ -37,15 +37,15 @@ function Casestudy() {
         <div className="Header">Case Studies</div>
         <img src={arrow} alt="" className="arrcasest" />
       </div>
-      <div className="casesWrapper">
+      <div className="processsecwrapper">
         <CaseCard />
         <CaseCard />
       </div>
       <div className="casesWrapperbelow">
         <CaseCard />
       </div>
-      <Processbanner />
-      <FloatProjects />
+      {/* <Processbanner /> */}
+      {/* <FloatProjects /> */}
     </div>
   );
 }
