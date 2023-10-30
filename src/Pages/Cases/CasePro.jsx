@@ -7,6 +7,7 @@ import image from "../../Images/Img/Image.png";
 import CaseCard from "../Casestudy/CaseCard";
 import arrow from "../../Images/Svg/Arrowdark.svg";
 
+
 function CasePro() {
   useEffect(() => {
     function setTheme(themeName) {

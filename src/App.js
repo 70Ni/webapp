@@ -15,7 +15,6 @@ import Casestudy from "./Pages/Casestudy/Casestudy";
 import CasePro from "./Pages/Cases/CasePro";
 import Process from "./Pages/Process/Process";
 import CaseBanner from "./Section/CaseStudy/CaseBanner";
-import { NavLink as Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Land from "./Pages/Landing page/Land";
 
@@ -25,14 +24,14 @@ function App() {
       <div className="MainSec">
         <Router>
           <Routes>
-            <Route exact path="/"  Component={<Land />} />
-            <Route  path="/casestudy"  Component={<Casestudy />} />
-            <Route  path="/casepro"  Component={<CasePro />} />
-            <Route  path="/client"  Component={<Clients />} />
-            <Route  path="/process"  Component={<Process />} />
+            <Route path="/" Component={<Land />} />
+            <Route path="/casestudy" Component={<Casestudy />} />
+            <Route path="/casepro" Component={<CasePro />} />
+            <Route path="/client" Component={<Clients />} />
+            <Route path="/processs" Component={<Process />} />
           </Routes>
         </Router>
-        {/* <Navigation /> */}
+        {/* <Navigation /> */}  
         {/* <IntoSec />
         <Brief />*/}
         {/* <Achieve />
@@ -42,7 +41,7 @@ function App() {
         <CaseBanner />  */}
         {/* <Clients /> */}
         {/* <Feedback />*/}
-        <Footer />  
+        <Footer />
 
         {/* <Casestudy />
         <Process /> */}
