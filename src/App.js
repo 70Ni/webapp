@@ -20,6 +20,7 @@ import Land from "./Pages/Landing page/Land";
 import Mission from "./Section/Mission/Mission";
 import Cinecio from "./Pages/Cases/Case02/Cinecio";
 import Squre from "./Pages/Cases/Case03/Squre";
+import Success from "./Pages/Cases/Case04/Success";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route exact path="/casestudy"  element={<Casestudy />} />
             <Route exact path="/Cinecio"  element={<Cinecio />} />
             <Route exact path="/Space"  element={<Squre />} />
+            <Route exact path="/success"  element={<Success />} />
             <Route exact path="/casepro"  element={<CasePro />} />
             <Route exact path="/client"  element={<Clients />} />
             <Route exact path="/process"  element={<Process />} />

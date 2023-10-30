@@ -13,7 +13,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
-const images = importAll(require.context('../../../Images/Img/Space/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../../Images/Img/Success/', false, /\.(png|jpe?g|svg)$/));
 console.log(images)
 
 
@@ -120,20 +120,20 @@ function Success() {
         </div>
         <div className="Imagery">
           <div className="singlecolumn">
-            <img src={images[6]} alt="" className="tworatio" />
+            <img src={images[0]} alt="" className="tworatio" />
           </div>
           <div className="twocoloumlayout">
           <div className="item">
-              <img src={images[2]} alt="" className="oneratio" />
+              <img src={images[1]} alt="" className="oneratio" />
             </div>  <div className="item">
-              <img src={images[3]} alt="" className="oneratio" />
+              <img src={images[2]} alt="" className="oneratio" />
             </div>
           </div>
           <div className="two1and2ratio">
           <div className="item flexone">
-              <img src={images[4]} alt="" className="tworatio" />
+              <img src={images[3]} alt="" className="tworatio" />
             </div>  <div className="item flextwo">
-              <img src={images[5]} alt="" className="tworatio" />
+              <img src={images[4]} alt="" className="tworatio" />
             </div>
           </div>
         </div>
