@@ -27,7 +27,7 @@
   --color-text: #0e100f;
 }
 .theme-dark {
-  --color-Background: #0e100f;
+  --color-Background: #000;
   --color-text: #ffffff;
 }
 .font-typs {

@@ -1,13 +1,23 @@
 import React from "react";
 import { useEffect } from "react";
-import Processbanner from "../../Section/ProcessBanner/Processbanner";
-import "../Cases/casepro.css";
-import Logo from "../../Images/Img/Deolittle.png";
-import image from "../../Images/Img/Image.png";
-import CaseCard from "../Casestudy/CaseCard";
-import arrow from "../../Images/Svg/Arrowdark.svg";
+import Processbanner from "../../../Section/ProcessBanner/Processbanner";
+import "../../Cases/casepro.css";
+import Logo from "../../../Images/Img/Deolittle.png";
+import image from "../../../Images/Img/Image.png";
+import CaseCard from "../../Casestudy/CaseCard";
+import arrow from "../../../Images/Svg/Arrowdark.svg";
 
-function CasePro() {
+
+
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('../../../Images/Img/Cine/', false, /\.(png|jpe?g|svg)$/));
+console.log(images)
+
+
+function Cinecio() {
   useEffect(() => {
     function setTheme(themeName) {
       document.documentElement.className = themeName;
@@ -31,7 +41,7 @@ function CasePro() {
         <div>
           <div className="caseimgwrpr">
             <div className="caseintImg">
-              <img src={image} alt="caseStudyImage" className="caseBannerimg" />
+              <img src={images[0]} alt="caseStudyImage" className="caseBannerimg" />
             </div>
           </div>
         </div>
@@ -110,20 +120,20 @@ function CasePro() {
         </div>
         <div className="Imagery">
           <div className="singlecolumn">
-            <img src={image} alt="" className="tworatio" />
+            <img src={images[1]} alt="" className="tworatio" />
           </div>
           <div className="twocoloumlayout">
           <div className="item">
-              <img src={image} alt="" className="oneratio" />
+              <img src={images[2]} alt="" className="oneratio" />
             </div>  <div className="item">
-              <img src={image} alt="" className="oneratio" />
+              <img src={images[3]} alt="" className="oneratio" />
             </div>
           </div>
           <div className="two1and2ratio">
           <div className="item flexone">
-              <img src={image} alt="" className="tworatio" />
+              <img src={images[4]} alt="" className="tworatio" />
             </div>  <div className="item flextwo">
-              <img src={image} alt="" className="tworatio" />
+              <img src={images[5]} alt="" className="tworatio" />
             </div>
           </div>
         </div>
@@ -140,4 +150,4 @@ function CasePro() {
   );
 }
 
-export default CasePro;
+export default Cinecio;

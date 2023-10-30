@@ -33,7 +33,7 @@ function Land() {
         <IntoSec />
         <Brief />
         <Achieve />
-        <Projects />
+        {/* <Projects /> */}
         {/* <CaseBanner /> */}
         <Capabilities />
         {/* <Clients /> */}

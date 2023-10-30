@@ -62,5 +62,9 @@
 @media only screen and (max-width: 342px) {
   .connect {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .chatbutton{
+    margin-right: 0px;
   }
 }
